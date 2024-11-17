@@ -9,10 +9,11 @@ To set up the environment, the following steps are required:
 
 - Install the default Java Development Kit (JDK).
 - Install the following Python libraries:
-- numpy
-- pandas
-- python-javabridge
-- python-weka-wrapper3
+  - numpy
+  - pandas
+  - python-javabridge
+  - python-weka-wrapper3
+
 Ensure that Java is properly configured, as it is necessary for the Weka library to function correctly.
 
 ## Overview  
