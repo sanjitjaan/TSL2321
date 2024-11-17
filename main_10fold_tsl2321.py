@@ -9,7 +9,7 @@ from zipfile import ZipFile
 import glob
 
 try:
-    trainData = converters.load_any_file('../data/input_encoded_sorted.csv')
+    trainData = converters.load_any_file('../data/sample_input_dataset.csv')
     trainData.class_is_last()
     #print(data)
     hybridList = ["weka.classifiers.meta.Bagging", "weka.classifiers.meta.RandomCommittee"]
